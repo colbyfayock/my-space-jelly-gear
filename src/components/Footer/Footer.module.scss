@@ -1,0 +1,11 @@
+@import "@styles/settings/__settings";
+
+.footer {
+  width: 100%;
+  color: white;
+  background-color: $color-brand-blue-medium;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em 0;
+}

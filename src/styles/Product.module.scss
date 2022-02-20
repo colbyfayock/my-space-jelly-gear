@@ -1,0 +1,50 @@
+.productWrapper {
+
+  display: flex;
+
+  @media (max-width: 1024px) {
+    flex-direction: column;
+  }
+
+}
+
+.productImage {
+
+  width: 50%;
+  margin-right: 2em;
+
+  @media (max-width: 1024px) {
+    width: 100%;
+    padding: 0 2em;
+    margin: 0;
+  }
+
+  & > div {
+    display: block!important;
+  }
+
+}
+
+.productContent {
+
+  width: 50%;
+
+  @media (max-width: 1024px) {
+    width: 100%;
+  }
+
+}
+
+.productDescription {
+  font-size: 1.8em;
+}
+
+.productPrice {
+  font-size: 2em;
+  margin: .4em 0 0;
+}
+
+.productBuy {
+  font-size: 1.2em;
+  margin-top: 2em;
+}

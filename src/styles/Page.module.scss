@@ -1,0 +1,227 @@
+@import "@styles/settings/__settings";
+
+.hero {
+  position: relative;
+
+  @media (max-width: 720px) {
+    margin-bottom: 4em;
+  }
+
+}
+
+.heroLink {
+
+  display: flex;
+
+  @media (max-width: 720px) {
+    flex-direction: column;
+  }
+
+}
+
+.heroContent {
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  z-index: 1;
+  width: 50%;
+  height: 100%;
+  color: white;
+  padding-left: 3em;
+
+  @media (max-width: 720px) {
+    order: 2;
+    position: static;
+    width: 100%;
+    height: auto;
+    color: inherit;
+    font-size: 1.5em;
+    text-align: center;
+    align-items: center;
+    padding-left: 0;
+    margin-top: .5em;
+  }
+
+  h2 {
+
+    font-size: 3.5em;
+    margin: 0;
+
+    @media (max-width: 1024px) {
+      font-size: 5vw;
+    }
+
+    @media (max-width: 640px) {
+      font-size: 2em;
+    }
+
+  }
+
+  p {
+
+    font-size: 2em;
+    margin-top: .5em;
+
+    @media (max-width: 1024px) {
+      font-size: 2.8vw;
+    }
+
+    @media (max-width: 640px) {
+      font-size: 1em;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+  }
+
+}
+
+.heroImage {
+  @media (max-width: 720px) {
+    order: 1;
+  }
+}
+
+.heading {
+  font-size: 2em;
+}
+
+.products {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 3em;
+}
+
+.productTitle {
+  font-size: 1.4em;
+  margin: .4em 0 0;
+}
+
+.productPrice {
+  margin: .4em 0 0;
+}
+
+.productImage {
+
+  & > div {
+    display: block!important;
+  }
+
+}
+
+// Stores
+
+.stores {
+
+  display: flex;
+
+  @media (max-width: 1024px) {
+    flex-direction: column;
+  }
+
+}
+
+.storesLocations {
+
+  margin-right: 3em;
+
+  @media (max-width: 1024px) {
+    order: 2;
+  }
+
+}
+
+.locations {
+
+  list-style: none;
+  background-color: white;
+  padding: 0;
+  margin: 0;
+
+  @media (max-width: 1024px) {
+    padding: 1.5em 0;
+  }
+
+  li {
+
+    padding-bottom: 2em;
+    border-bottom: solid 1px gray;
+    margin-bottom: 2em;
+    cursor: pointer;
+
+    &:last-child {
+      padding-bottom: 0;
+      border-bottom: 0;
+      margin-bottom: 0;
+    }
+
+  }
+
+}
+
+.locationDiscovery {
+
+  a,
+  button {
+
+    display: inline-flex;
+    align-items: center;
+    color: $color-brand-blue-medium;
+    font-size: 1em;
+    text-decoration: underline;
+    background: none;
+    padding: 0;
+    border: none;
+    margin: 0 .4em;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    svg {
+      font-size: .9em;
+      margin-left: .4em;
+    }
+
+  }
+
+}
+
+.locationName {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-top: 0;
+}
+
+.storesMap {
+  flex-grow: 1;
+
+  @media (max-width: 1024px) {
+    order: 1;
+  }
+
+}
+
+.storesMapContainer {
+  width: 100%;
+  aspect-ratio: 800 / 500;
+}
+
+
+
+.map {
+  width: 100%;
+  height: 100%;
+}

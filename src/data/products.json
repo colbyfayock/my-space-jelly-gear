@@ -1,0 +1,62 @@
+[
+  {
+    "id": "cosmo-hat-model",
+    "name": "Cosmo Fitted Hat",
+    "price": 30,
+    "image": "/images/cosmo-hat-model.jpg"
+  },
+  {
+    "id": "cosmo-hat",
+    "name": "Cosmo Trucker Hat",
+    "price": 24,
+    "image": "/images/cosmo-hat.jpg"
+  },
+  {
+    "id": "cosmo-mousepad",
+    "name": "Cosmo Mousepad",
+    "price": 20,
+    "image": "/images/cosmo-mousepad.jpg"
+  },
+  {
+    "id": "cosmo-mug",
+    "name": "Cosmo Mug",
+    "price": 15,
+    "image": "/images/cosmo-mug.jpg"
+  },
+  {
+    "id": "cosmo-pillow",
+    "name": "Cosmo Pillow",
+    "price": 20,
+    "image": "/images/cosmo-pillow.jpg"
+  },
+  {
+    "id": "cosmo-sweatshirt-hooded",
+    "name": "Cosmo Hooded Sweatshirt",
+    "price": 50,
+    "image": "/images/cosmo-sweatshirt-hooded.jpg"
+  },
+  {
+    "id": "cosmo-sweatshirt",
+    "name": "Cosmo Sweatshirt",
+    "price": 40,
+    "image": "/images/cosmo-sweatshirt.jpg"
+  },
+  {
+    "id": "cosmo-tshirt-kids",
+    "name": "Cosmo Kids Tshirt",
+    "price": 15,
+    "image": "/images/cosmo-tshirt-kids.jpg"
+  },
+  {
+    "id": "cosmo-tshirt-model",
+    "name": "Cosmo Tshirt",
+    "price": 20,
+    "image": "/images/cosmo-tshirt-model.jpg"
+  },
+  {
+    "id": "cosmo-tshirt-vneck",
+    "name": "Cosmo Vneck",
+    "price": 20,
+    "image": "/images/cosmo-tshirt-vneck.jpg"
+  }
+]
