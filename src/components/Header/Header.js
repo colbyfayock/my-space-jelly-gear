@@ -28,8 +28,8 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <Link href="#">
-              <a>Link</a>
+            <Link href="/stores">
+              <a>Find a Store</a>
             </Link>
           </li>
         </ul>
