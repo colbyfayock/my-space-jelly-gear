@@ -990,6 +990,11 @@
     "@babel/helper-validator-identifier" "^7.16.7"
     to-fast-properties "^2.0.0"
 
+"@cloudinary/url-gen@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@cloudinary/url-gen/-/url-gen-1.6.0.tgz#0810b4e00193737e336d43f29073b1fce0910a6f"
+  integrity sha512-Ir7IloApze7tUmLxDUjFw3GOcs7/Hrh47p4U3CCtC6wI59ZGMHQe3l3aNhMtdYrJxCVIs2jYp6obWetcfTf3GQ==
+
 "@eslint/eslintrc@^1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@eslint/eslintrc/-/eslintrc-1.1.0.tgz#583d12dbec5d4f22f333f9669f7d0b7c7815b4d3"

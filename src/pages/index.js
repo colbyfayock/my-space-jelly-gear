@@ -6,6 +6,8 @@ import {
   gql
 } from "@apollo/client";
 
+import { buildImage } from '@lib/cloudinary';
+
 import Layout from '@components/Layout';
 import Container from '@components/Container';
 import Button from '@components/Button';
@@ -33,7 +35,7 @@ export default function Home({ home, products }) {
                 <h2>{ heroTitle }</h2>
                 <p>{ heroText }</p>
               </div>
-              <img className={styles.heroImage} width={heroBackground.width} height={heroBackground.height} src={heroBackground.url} alt="" />
+              <img className={styles.heroImage} width={heroBackground.width} height={heroBackground.height} src={buildImage(heroBackground.public_id).toURL()} alt="" />
             </a>
           </Link>
         </div>
@@ -42,12 +44,13 @@ export default function Home({ home, products }) {
 
         <ul className={styles.products}>
           {products.map(product => {
+            const imageUrl = buildImage(product.image.public_id).resize('w_900,h_900').toURL();
             return (
               <li key={product.slug}>
                 <Link href={`/products/${product.slug}`}>
                   <a>
                     <div className={styles.productImage}>
-                      <img width={product.image.width} height={product.image.height} src={product.image.url} alt="" />
+                      <img width={product.image.width} height={product.image.height} src={imageUrl} alt="" />
                     </div>
                     <h3 className={styles.productTitle}>
                       { product.name }
