@@ -1,9 +1,13 @@
-# Space Jelly Gear Starter
+# Demo: Space Jelly Gear
 
-## ⚡️ Quick Start
+Demo for course [Ecommerce Product Management & Storefront with GraphCMS, Snipcart, & Next.js](https://egghead.io/courses/ecommerce-product-management-storefront-with-graphcms-snipcart-next-js-13cc0534?af=atzgap)
 
-```bash
-yarn create next-app -e https://github.com/colbyfayock/space-jelly-gear-starter
-# or
-npx create-next-app -e https://github.com/colbyfayock/space-jelly-gear-starter
-```
+📺 Course: https://egghead.io/courses/ecommerce-product-management-storefront-with-graphcms-snipcart-next-js-13cc0534?af=atzgap
+
+## More tutorials and walkthroughs
+
+🐦 [Follow me on Twitter](https://twitter.com/colbyfayock)
+
+📺 [Subscribe on YouTube](https://www.youtube.com/colbyfayock)
+
+✉️ [Sign Up for My Newsletter](https://colbyfayock.com/newsletter)
