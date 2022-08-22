@@ -2,6 +2,8 @@
 
 Demo for course [Ecommerce Product Management & Storefront with GraphCMS, Snipcart, & Next.js](https://egghead.io/courses/ecommerce-product-management-storefront-with-graphcms-snipcart-next-js-13cc0534?af=atzgap)
 
+View Demo: https://my-space-jelly-gear.vercel.app/
+
 📺 Course: https://egghead.io/courses/ecommerce-product-management-storefront-with-graphcms-snipcart-next-js-13cc0534?af=atzgap
 
 ## More tutorials and walkthroughs
